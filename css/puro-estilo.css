@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 80%;
+    margin: auto;
+}
+
+
+/*NAVIGATION*/
+/*NAVIGATION*/
+/*NAVIGATION*/
+/*NAVIGATION*/
+.navdiv{
+    background-color: rgb(44, 44, 68);
+    overflow: auto;
+    margin-top: 40px;
+    padding-right: 0px;
+    padding-left: 50px;
+}
+
+.navul .anav{
+    float: right;
+    display: block;
+    list-style-type: none;
+    margin: 20px 20px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    text-align: right;
+}
+
+.anav a, .anav a:visited{
+    color: rgb(105, 103, 103);
+    letter-spacing: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color .3s linear;
+}
+
+.anav a:hover{
+    color: white;
+}
+
+.imgnav .logofashion{
+    float: left;
+    display: block;
+    margin: 20px 0px 0px 30px;
+}
+
+.imgheader .imgtopo{
+    display: block;
+    position: relative;
+}
+
+.imgtopo{
+    width: 100%;
+}
+
+/*MAIN*/
+/*MAIN*/
+/*MAIN*/
+/*MAIN*/
+/*MAIN*/
+
+main{
+    margin-top: 120px;
+    text-align: center;
+    
+}
+.titmain{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.pmain-1{
+    width: 90%;
+    margin: auto;
+    line-height: 2;
+    font-size: 17px;
+    padding-bottom: 30px;
+    color:rgb(91, 91, 91);
+}
+
+.divcard{
+    overflow: auto;
+    margin-top: 120px;
+    width: 70%;
+    margin: auto;
+}
+
+.card{
+    margin-top: 40px;
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-align: center;
+    font-size: 14px;
+}
+
+.card h2{
+    font-size: 19px;
+    letter-spacing: 2px;
+    color: rgb(53, 53, 53);
+    font-family: serif;
+    text-transform: uppercase;
+}
+
+.card p{
+    color: rgb(91, 91, 91);
+}
+
+.cardum, .carddois{
+    margin-right: 2%;
+}
+
+.card img{
+    width: 100%;
+}
+
+.secondmain{
+    margin-top: 120px;
+    background-size: 100% 100%;
+    background-position: left top;
+    padding: 100px;
+    text-align: left;
+    background-image: url(bg_detalhe.png);
+}
+
+
+.secondmain .titmain{
+    color: white;
+    font-size: 50px;
+    padding-right: 25%;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.secondmain .pmain-1{
+    color: white;
+    text-align: left;
+    width: 50%;
+    padding-right: 50%;
+    padding-top: 30px;
+}
+
+.contact{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.contact p{
+    font-size: 40px;
+    font-weight: bold;
+    color: #003d52;
+    text-transform: uppercase;
+}
+
+.map iframe{
+    height: 600px;
+    width: 100%;
+}
+
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+
+footer{
+    margin-top: 40px;
+    background-color: #01212c;
+    height: 60px;
+}
+
+footer p{
+    text-align: center;
+    line-height: 60px;
+    font-size: 14px;
+    color:rgb(201, 199, 199);
+    letter-spacing: 3px;
+}
